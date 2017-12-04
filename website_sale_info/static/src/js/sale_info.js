@@ -6,7 +6,6 @@ odoo.define('website_sale_info.sale_info', function (require) {
     var Widget = require('web.Widget');
 
     var SaleInfo = Widget.extend({
-        template: 'WebsiteSaleInfoModal',
         init: function () {
             this._super();
         },
